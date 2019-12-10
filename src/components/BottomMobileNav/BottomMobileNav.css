@@ -1,0 +1,48 @@
+.BottomMobileNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000000;
+    background-color: #fff;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #4f2d7e;
+  }
+
+  /* Style the links inside the navigation bar */
+  .BottomMobileNav img {
+    height: 65px;
+    width: 65px;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 14px 14px;
+    text-decoration: none;
+  }
+
+@media (min-width: 400px) {
+  .BottomMobileNav img {
+    margin: 0px 20px;
+  }
+}
+
+@media (min-width: 450px) {
+  .BottomMobileNav img {
+    margin: 0px 30px;
+  }
+}
+
+@media (min-width: 500px) {
+  .BottomMobileNav img {
+    margin: 0px 40px;
+  }
+}
+
+@media (min-width: 600px) {
+  .BottomMobileNav {
+    display: none;
+  }
+}

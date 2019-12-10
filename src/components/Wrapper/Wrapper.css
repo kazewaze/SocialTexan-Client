@@ -1,0 +1,16 @@
+.Wrapper {
+  margin-top: 110px;
+  margin-bottom: 150px;
+}
+/*
+@media (max-width: 600px) {
+  .Wrapper {
+    margin-bottom: 150px;
+  }
+} */
+
+/* @media (min-width: 700px) {
+  .Wrapper {
+    margin-bottom: 150px;
+  }
+} */

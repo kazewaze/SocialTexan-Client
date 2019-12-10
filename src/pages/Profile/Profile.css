@@ -1,0 +1,12 @@
+/* .Profile img {
+  height: 300px;
+  width: 300px;
+} */
+
+.profile-img {
+  height: 133px;
+  width: 133px;
+  border-radius: 3px;
+  background-color: #FFF;
+  margin-left: 7px;
+}
