@@ -15,8 +15,8 @@ function Nav(props) {
           {props.userData.userName ? <li><Link className="Nav__top__links__link--control" to="/notifications">Notifications</Link></li> : ''}
           {props.userData.userName ? <li><Link className="Nav__top__links__link--control" to="/messages">Messages</Link></li> : ''}
 
-          {props.userName ? <li><Link className="Nav__bottom__links__link" to="/profile">Profile</Link></li> : ''}
-            {props.userName ? <a href="http://localhost:3003/auth/logout" className="Nav__bottom__links__link">Sign Out</a> : <a href="http://localhost:3003/auth" className="Nav__bottom__links__link">Sign In</a>}
+          {props.userData.userName ? <li><Link className="Nav__bottom__links__link" to="/profile">Profile</Link></li> : ''}
+            {props.userData.userName ? <a href="http://localhost:3003/auth/logout" className="Nav__bottom__links__link">Sign Out</a> : <a href="http://localhost:3003/auth" className="Nav__bottom__links__link">Sign In</a>}
           </div>
     </nav>
   );

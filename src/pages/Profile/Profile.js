@@ -36,10 +36,65 @@ class Profile extends Component {
         </div>
         :
       <div>
-        <h1>You need to Sign In first!</h1>
-        <a style={{backgroundColor: '#4f2d7e'}} href="http://localhost:3003/auth" className="Nav__bottom__links__link">Sign In</a>
+        <h2>Uh Oh... Your not signed in</h2>
+        <h2>Click Sign In at the top</h2>
+        <h2>Or Sign Up below</h2>
+        <a style={{backgroundColor: '#4f2d7e'}} href="http://localhost:3003/auth" className="Nav__bottom__links__link">Sign Up</a>
       </div>
       }
+
+      <p>
+
+      Restore your Mac from a backup
+Other ways to back up and restore files
+If you back up to multiple disks, you can switch disks before entering Time Machine. Press and hold the Option key, then choose Browse Other Backup Disks from the Time Machine menu.
+To exclude items from your backup, open Time Machine preferences, click Options, then click the Add (+) button to add an item to be excluded. To stop excluding an item, such as an external hard drive, select the item and click the Remove (–) button.
+If using Time Machine to back up to a network disk, you can verify those backups to make sure they're in good condition. Press and hold Option, then choose Verify Backups from the Time Machine menu. 
+In OS X Lion v10.7.3 or later, you can start up from your Time Machine disk, if necessary. Press and hold Option as your Mac starts up. When you see the Startup Manager screen, choose “EFI Boot” as the startup disk.
+
+Restore your Mac from a backup
+Other ways to back up and restore files
+If you back up to multiple disks, you can switch disks before entering Time Machine. Press and hold the Option key, then choose Browse Other Backup Disks from the Time Machine menu.
+To exclude items from your backup, open Time Machine preferences, click Options, then click the Add (+) button to add an item to be excluded. To stop excluding an item, such as an external hard drive, select the item and click the Remove (–) button.
+If using Time Machine to back up to a network disk, you can verify those backups to make sure they're in good condition. Press and hold Option, then choose Verify Backups from the Time Machine menu. 
+In OS X Lion v10.7.3 or later, you can start up from your Time Machine disk, if necessary. Press and hold Option as your Mac starts up. When you see the Startup Manager screen, choose “EFI Boot” as the startup disk.
+
+Restore your Mac from a backup
+Other ways to back up and restore files
+If you back up to multiple disks, you can switch disks before entering Time Machine. Press and hold the Option key, then choose Browse Other Backup Disks from the Time Machine menu.
+To exclude items from your backup, open Time Machine preferences, click Options, then click the Add (+) button to add an item to be excluded. To stop excluding an item, such as an external hard drive, select the item and click the Remove (–) button.
+If using Time Machine to back up to a network disk, you can verify those backups to make sure they're in good condition. Press and hold Option, then choose Verify Backups from the Time Machine menu. 
+In OS X Lion v10.7.3 or later, you can start up from your Time Machine disk, if necessary. Press and hold Option as your Mac starts up. When you see the Startup Manager screen, choose “EFI Boot” as the startup disk.
+
+Restore your Mac from a backup
+Other ways to back up and restore files
+If you back up to multiple disks, you can switch disks before entering Time Machine. Press and hold the Option key, then choose Browse Other Backup Disks from the Time Machine menu.
+To exclude items from your backup, open Time Machine preferences, click Options, then click the Add (+) button to add an item to be excluded. To stop excluding an item, such as an external hard drive, select the item and click the Remove (–) button.
+If using Time Machine to back up to a network disk, you can verify those backups to make sure they're in good condition. Press and hold Option, then choose Verify Backups from the Time Machine menu. 
+In OS X Lion v10.7.3 or later, you can start up from your Time Machine disk, if necessary. Press and hold Option as your Mac starts up. When you see the Startup Manager screen, choose “EFI Boot” as the startup disk.
+
+Restore your Mac from a backup
+Other ways to back up and restore files
+If you back up to multiple disks, you can switch disks before entering Time Machine. Press and hold the Option key, then choose Browse Other Backup Disks from the Time Machine menu.
+To exclude items from your backup, open Time Machine preferences, click Options, then click the Add (+) button to add an item to be excluded. To stop excluding an item, such as an external hard drive, select the item and click the Remove (–) button.
+If using Time Machine to back up to a network disk, you can verify those backups to make sure they're in good condition. Press and hold Option, then choose Verify Backups from the Time Machine menu. 
+In OS X Lion v10.7.3 or later, you can start up from your Time Machine disk, if necessary. Press and hold Option as your Mac starts up. When you see the Startup Manager screen, choose “EFI Boot” as the startup disk.
+
+Restore your Mac from a backup
+Other ways to back up and restore files
+If you back up to multiple disks, you can switch disks before entering Time Machine. Press and hold the Option key, then choose Browse Other Backup Disks from the Time Machine menu.
+To exclude items from your backup, open Time Machine preferences, click Options, then click the Add (+) button to add an item to be excluded. To stop excluding an item, such as an external hard drive, select the item and click the Remove (–) button.
+If using Time Machine to back up to a network disk, you can verify those backups to make sure they're in good condition. Press and hold Option, then choose Verify Backups from the Time Machine menu. 
+In OS X Lion v10.7.3 or later, you can start up from your Time Machine disk, if necessary. Press and hold Option as your Mac starts up. When you see the Startup Manager screen, choose “EFI Boot” as the startup disk.
+
+Restore your Mac from a backup
+Other ways to back up and restore files
+If you back up to multiple disks, you can switch disks before entering Time Machine. Press and hold the Option key, then choose Browse Other Backup Disks from the Time Machine menu.
+To exclude items from your backup, open Time Machine preferences, click Options, then click the Add (+) button to add an item to be excluded. To stop excluding an item, such as an external hard drive, select the item and click the Remove (–) button.
+If using Time Machine to back up to a network disk, you can verify those backups to make sure they're in good condition. Press and hold Option, then choose Verify Backups from the Time Machine menu. 
+In OS X Lion v10.7.3 or later, you can start up from your Time Machine disk, if necessary. Press and hold Option as your Mac starts up. When you see the Startup Manager screen, choose “EFI Boot” as the startup disk.
+
+      </p>
       </div>
     );
   }

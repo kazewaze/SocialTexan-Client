@@ -9,7 +9,7 @@ import message from '../../img/message.png';
 function BottomMobileNav(props) {
   return (
     <nav className="BottomMobileNav">
-      <Link to="/home"><img src={home} alt="Home" /></Link>
+      <Link to={{pathname: '/home', state: { data: props.userData, loggedIn: props.userData.userName ? true : false }}}><img src={home} alt="Home" /></Link>
       <Link to="/search"><img src={search} alt="Search" /></Link>
       <Link to="/notifications"><img src={notify} alt="Notifications" /></Link>
       <Link to="/messages"><img src={message} alt="Messages" /></Link>

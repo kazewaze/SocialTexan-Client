@@ -28,6 +28,10 @@
   background-color: #4f2d7e;
 }
 
+.Footer__inner {
+  padding-bottom: 0px;
+}
+
 @media (max-width: 600px) {
   .Footer {
     margin-bottom: 70px;
@@ -42,5 +46,9 @@
   .Footer__img {
     height: 50px;
     width: 175px;
+  }
+
+  .Footer__inner {
+    padding-bottom: 0px;
   }
 }
